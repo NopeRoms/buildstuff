@@ -21,4 +21,3 @@ task:
       - rclone copy out/target/product/whyred/Pixel*.zip drive:roms || exit 0
   Upload_script:
       - bash ./upload.sh
-
