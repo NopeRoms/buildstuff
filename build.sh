@@ -23,4 +23,4 @@ ccache -M 30G
 ccache -o compression=true 
 ccache -z
 export ALLOW_MISSING_DEPENDENCIES=true
-timeout 90m bash -c "source build/envsetup.sh && lunch lineage_whyred-userdebug && mka bacon -j16" || exit 0
+timeout 90m bash -c "source build/envsetup.sh && lunch lineage_whyred-userdebug && mka bacon -j13" || exit 0
